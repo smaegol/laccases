@@ -47,7 +47,7 @@ pload amino acid translations of found ORFs (please name the query by dataset na
 Download results (Domain hits, Full), open in Excell/Open office as .tsv file and search for hits from cupredoxin superfamily ([https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=cl19115]). Identify ids of ORFs containing domains of interest and visualize full results (come back to browser, ‘Browse results’, pick appropriate identifier and ‘Show selected queries’ in ‘full results’ view).
 Verify that identified ORF contains 2-3 domains and copper binding amino acid patterns in two different domains:
 
-| First Header  | Second Header |
+| Domain  | Pattern |
 | ------------- | ------------- |
 | Cu_T2/3_binding | H.H.*H.H |
 | Cu_T1_T2/3_binding | H.{2,15}H.H.*HCH.{2,15}H |
