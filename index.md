@@ -61,7 +61,8 @@ mkdir metaquast_output
 and run analysis by:
 
 ```
-metaquast.py --contig-thresholds 0,1000 -o metaquast_output spades_output/scaffolds.fasta > metaquast.log 2> metaquast.err
+metaquast.py --contig-thresholds 0,1000 -o metaquast_output 
+spades_output/scaffolds.fasta > metaquast.log 2> metaquast.err
 ```
 
 # Gene finding
@@ -69,7 +70,9 @@ metaquast.py --contig-thresholds 0,1000 -o metaquast_output spades_output/scaffo
 [Prodigal](http://compbio.ornl.gov/prodigal/) is an example of gene finder and can be used to locate open reading frames in previously obtained scaffolds:
 
 ```
-prodigal -p meta -f gff -a aa_orfs.fasta -d nt_orfs.fasta –i spades_output/scaffolds.fasta  -o orfs_list.gff > gene_finding.log 2> gene_finding.err
+prodigal -p meta -f gff -a aa_orfs.fasta -d nt_orfs.fasta 
+–i spades_output/scaffolds.fasta  -o orfs_list.gff 
+> gene_finding.log 2> gene_finding.err
 ```
 
 Browse resulting files. Documentation of **.gff** format of obtained results can be found [here](https://github.com/hyattpd/prodigal/wiki/understanding-the-prodigal-output)
