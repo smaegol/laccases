@@ -36,7 +36,9 @@ Spades [documentation](http://cab.spbu.ru/files/release3.13.0/manual.html) is av
 To assemble reads into contigs type the following command in the terminal:
 
 ```
-spades.py -t 1 -m 5 -o spades_output --pe1-1 dataset_{dataset_no}_R1.fastq --pe1-2 dataset_{dataset_no}_R2.fastq > assembly.log 2> assembly.err
+spades.py -t 1 -m 5 -o spades_output 
+--pe1-1 dataset_{dataset_no}_R1.fastq 
+--pe1-2 dataset_{dataset_no}_R2.fastq > assembly.log 2> assembly.err
 ```
 
 List the output folder to see its content:
@@ -61,7 +63,8 @@ mkdir metaquast_output
 and run analysis by:
 
 ```
-metaquast.py --contig-thresholds 0,1000 -o metaquast_output spades_output/scaffolds.fasta > metaquast.log 2> metaquast.err
+metaquast.py --contig-thresholds 0,1000 -o metaquast_output 
+spades_output/scaffolds.fasta > metaquast.log 2> metaquast.err
 ```
 
 # Gene finding
@@ -69,7 +72,8 @@ metaquast.py --contig-thresholds 0,1000 -o metaquast_output spades_output/scaffo
 [Prodigal](http://compbio.ornl.gov/prodigal/) is an example of gene finder and can be used to locate open reading frames in previously obtained scaffolds:
 
 ```
-prodigal -p meta -f gff -a aa_orfs.fasta -d nt_orfs.fasta –i spades_output /scaffolds.fasta  -o orfs_list.gff > gene_finding.log 2> gene_finding.err
+prodigal -p meta -f gff -a aa_orfs.fasta -d nt_orfs.fasta 
+–i spades_output/scaffolds.fasta  -o orfs_list.gff > gene_finding.log 2> gene_finding.err
 ```
 
 Browse resulting files. Documentation of **.gff** format of obtained results can be found [here](https://github.com/hyattpd/prodigal/wiki/understanding-the-prodigal-output)
