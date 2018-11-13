@@ -19,8 +19,7 @@ cp ~/laccases/laccases_data/INPUT_DATA/{dataset_no}_data ./
 It contains two files (**‘ls’** command lists content of a folder) of preprocessed sequencing reads (after quality trimming and with removed sequences of adapters) named as follows:
 
 `
-dataset_{dataset_no}_R1.fastq
-dataset_{dataset_no}_R1.fastq
+dataset_{dataset_no}_R1.fastq       dataset_{dataset_no}_R2.fastq
 `
 
 Browse file content (navigate with arrows and terminate by typing **‘q’**):
