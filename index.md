@@ -10,8 +10,6 @@ source activate laccases
 
 All input data files are placed in folder `~/laccases/laccases_data/INPUT_DATA/{dataset_no}_data/`. Create a new folder and copy raw data by typing:
 
-
-
 ```
 mkdir {dataset_no}_data
 cd {dataset_no}_data
