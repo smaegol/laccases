@@ -16,14 +16,14 @@ cd {dataset_no}_data
 cp ~/laccases/laccases_data/INPUT_DATA/{dataset_no}_data ./
 ```
 
-It contains two files (**ls** command lists content of a folder) of preprocessed sequencing reads (after quality trimming and with removed sequences of adapters) named as follows:
+It contains two files (**‘ls’** command lists content of a folder) of preprocessed sequencing reads (after quality trimming and with removed sequences of adapters) named as follows:
 
 `
 dataset_{dataset_no}_R1.fastq
 dataset_{dataset_no}_R1.fastq
 `
 
-Browse file content (navigate with arrows and terminate by typing 'q'):
+Browse file content (navigate with arrows and terminate by typing **‘q’**):
 ```
 less dataset_{dataset_no}_R1.fastq
 ```
@@ -80,7 +80,7 @@ Annotation by conserved domains composition of found multiple ORFs translations 
 
 Upload amino acid translations of found ORFs (name the query by dataset name and provide e-mail address for analysis reporting)
 
-Download results (Domain hits, Full), open in OpenOffice as .tsv file and search for hits from [cupredoxin superfamily](https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=cl19115). Identify ids of ORFs containing domains of interest and visualize full results (come back to browser, ‘Browse results’, pick appropriate identifier and ‘Show selected queries’ in ‘full results’ view).
+Download results (Domain hits, Full), open in OpenOffice as .tsv file and search for hits from [cupredoxin superfamily](https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=cl19115). Identify ids of ORFs containing domains of interest and visualize full results (come back to browser, **‘Browse results’**, pick appropriate identifier and **‘Show selected queries’** in **‘full results’** view).
 Verify that identified ORF contains 2-3 domains and copper binding amino acid patterns in two different domains:
 
 | Domain  | Pattern |
