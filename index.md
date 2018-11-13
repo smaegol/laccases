@@ -36,7 +36,9 @@ Spades [documentation](http://cab.spbu.ru/files/release3.13.0/manual.html) is av
 To assemble reads into contigs type the following command in the terminal:
 
 ```
-spades.py -t 1 -m 5 -o spades_output --pe1-1 dataset_{dataset_no}_R1.fastq --pe1-2 dataset_{dataset_no}_R2.fastq > assembly.log 2> assembly.err
+spades.py -t 1 -m 5 -o spades_output 
+--pe1-1 dataset_{dataset_no}_R1.fastq 
+--pe1-2 dataset_{dataset_no}_R2.fastq > assembly.log 2> assembly.err
 ```
 
 List the output folder to see its content:
