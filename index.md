@@ -66,8 +66,10 @@ mkdir metaquast_output
 and run analysis by:
 
 ```
-metaquast.py --contig-thresholds 0,1000 -o metaquast_output spades_output/scaffolds.fasta
+metaquast --contig-thresholds 0,1000 -o metaquast_output --glimmer spades_output/scaffolds.fasta
 ```
+
+Browse the folder with results (use commands: 'ls', 'less' etc.)
 
 # Gene finding
 
