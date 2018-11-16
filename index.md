@@ -7,6 +7,7 @@ Activate access to required software and input data by typing in the command lin
 ```
 source activate laccases
 ```
+**!!! change '{dataset_no}' in every command to the number from your screen, e.g. for number 3 folder name will be '3_data'**
 
 All input data files are placed in folder **~/laccases/laccases_data/INPUT_DATA/{dataset_no}_data/**. Create a new folder and copy raw data by typing:
 
