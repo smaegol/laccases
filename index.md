@@ -87,7 +87,7 @@ Annotation by conserved domains composition of found multiple ORFs translations 
 
 Upload amino acid translations of found ORFs (name the query by dataset name and provide e-mail address for analysis reporting)
 
-Download results (Domain hits, Full), open in OpenOffice as .tsv file and search for hits from [cupredoxin superfamily](https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=cl19115). Identify ids of ORFs containing domains of interest and visualize full results (come back to browser, **‘Browse results’**, pick appropriate identifier and **‘Show selected queries’** in **‘full results’** view).
+Download results (Domain hits, Full), open in LibreOffice as tab-seperated file and search for hits from [cupredoxin superfamily](https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=cl19115). Identify ids of ORFs containing domains of interest and visualize full results (come back to browser, **‘Browse results’**, pick appropriate identifier and **‘Show selected queries’** in **‘full results’** view).
 Verify that identified ORF contains 2-3 domains and copper binding amino acid patterns in two different domains:
 
 | Domain  | Pattern |
