@@ -8,11 +8,11 @@ Activate access to required software and input data by typing in the command lin
 source activate laccases
 ```
 
-
+**
 `
-**!!! In the following sections, change '{dataset_no}' in every command to the number from your screen, e.g. for number 3 folder name will be '3_data'**
+!!! In the following sections, change '{dataset_no}' in every command to the number from your screen, e.g. for number 3 folder name will be '3_data'
 `
-
+**
 
 
 
