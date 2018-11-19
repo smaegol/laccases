@@ -35,6 +35,11 @@ Browse file content (navigate with arrows and terminate by typing **‘q’**):
 less dataset_{dataset_no}_R1.fastq
 ```
 
+Calculate the number of input sequences:
+```
+grep "^+" dataset_{dataset_no}_R1.fastq | wc -l
+```
+
 # Assembly and evaluation
 
 Assembly of short reads into longer contigs and scaffolds can be done using **Spades** software.
