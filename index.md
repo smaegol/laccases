@@ -8,15 +8,15 @@ Activate access to required software and input data by typing in the command lin
 source activate laccases
 ```
 
-**
+
 `
-!!! In the following sections, change '{dataset_no}' in every command to the number from your screen, e.g. for number 3 folder name will be '3_data'
+!!! In the following sections, change '{dataset_no}' in every command to the number from your screen, e.g. for number 3 folder name will be '3_data'!!!
 `
-**
 
 
 
-All input data files are placed in folder **../2018_10_20/{dataset_no}_data/**. Create a new folder and copy raw data by typing:
+
+All input data files are placed in folder **/2018_10_20/{dataset_no}_data/**. Create a new folder and copy raw data by typing:
 
 ```
 mkdir {dataset_no}_data
@@ -96,7 +96,7 @@ Annotation by conserved domains composition of found multiple ORFs translations 
 
 Upload amino acid translations of found ORFs (name the query by dataset name and provide e-mail address for analysis reporting)
 
-Download results (Domain hits, Full), open in LibreOffice Calc as tab-seperated file and search for hits from [cupredoxin superfamily](https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=cl19115). Identify ids of ORFs containing domains of interest and visualize full results (come back to browser, **‘Browse results’**, pick appropriate identifier and **‘Show selected queries’** in **‘full results’** view).
+Download results (Domain hits, Full), open in LibreOffice Calc as tab-seperated file and search for hits from [cupredoxin superfamily](https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=cl19115). Identify ids of ORFs containing domains of interest and visualize full results (come back to browser, **‘Browse results’**, pick the appropriate identifier and **‘Show selected queries’** in **‘full results’** view).
 
 Verify that identified ORF contains 2-3 domains and copper binding amino acid patterns in two different domains:
 
