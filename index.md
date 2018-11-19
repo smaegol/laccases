@@ -9,12 +9,14 @@ source activate laccases
 ```
 
 
-'**!!! In the following sections, change '{dataset_no}' in every command to the number from your screen, e.g. for number 3 folder name will be '3_data'**'
+`
+**!!! In the following sections, change '{dataset_no}' in every command to the number from your screen, e.g. for number 3 folder name will be '3_data'**
+`
 
 
 
 
-All input data files are placed in folder **~/laccases/laccases_data/INPUT_DATA/{dataset_no}_data/**. Create a new folder and copy raw data by typing:
+All input data files are placed in folder **../2018_10_20/{dataset_no}_data/**. Create a new folder and copy raw data by typing:
 
 ```
 mkdir {dataset_no}_data
@@ -80,6 +82,13 @@ prodigal -p meta -f gff -a aa_orfs.fasta -d nt_orfs.fasta -i spades_output/scaff
 ```
 
 Browse resulting files. Documentation of **.gff** format of obtained results can be found [here](https://github.com/hyattpd/prodigal/wiki/understanding-the-prodigal-output)
+
+Calculate the number of resulting genes with command:
+
+```
+grep ">" aa_orfs.fasta |wc -l
+```
+
 
 # Identification of laccases
 
