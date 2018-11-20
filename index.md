@@ -21,7 +21,7 @@ All input data files are placed in folder **/2018_10_20/{dataset_no}_data/**. Cr
 ```
 mkdir {dataset_no}_data
 cd {dataset_no}_data
-cp ../2018_11_20/{dataset_no}_data/* ./
+cp ../2018_11_20/{dataset_no}_data/* .
 ```
 
 It contains two files (**‘ls’** command lists content of a folder) of preprocessed sequencing reads (after quality trimming and with removed sequences of adapters) named as follows:
