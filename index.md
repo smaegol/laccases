@@ -97,13 +97,13 @@ grep ">" aa_orfs.fasta |wc -l
 
 # Identification of laccases
 
-Annotation by conserved domains composition of found multiple ORFs translations may be done with batch search of Web Batch CD-search tool against [Conserved Domain Database](https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi).
+Annotation by conserved domains composition of found multiple ORF translations may be done with a batch search of Web Batch CD-search tool against [Conserved Domain Database](https://www.ncbi.nlm.nih.gov/Structure/bwrpsb/bwrpsb.cgi).
 
-Upload amino acid translations of found ORFs (name the query by dataset name and provide e-mail address for analysis reporting)
+Upload amino acid translations of found ORFs (name the query by dataset name and provide e-mail address for analysis reporting).
 
 Download results (Domain hits, Full), open in LibreOffice Calc as tab-seperated file and search for hits from [cupredoxin superfamily](https://www.ncbi.nlm.nih.gov/Structure/cdd/cddsrv.cgi?uid=cl19115). Identify ids of ORFs containing domains of interest and visualize full results (come back to browser, **‘Browse results’**, pick the appropriate identifier and **‘Show selected queries’** in **‘full results’** view).
 
-Verify that identified ORF contains 2-3 domains and copper binding amino acid patterns in two different domains:
+Verify that the identified ORF contains 2-3 domains and copper binding amino acid patterns in two different domains:
 
 | Domain  | Pattern |
 | ------------- | ------------- |
