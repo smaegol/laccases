@@ -5,7 +5,7 @@
 Activate access to required software and input data by typing in the command line:
 
 ```
-source activate laccases
+conda activate laccases
 ```
 
 
